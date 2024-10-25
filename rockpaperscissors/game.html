@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper and Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="image">
+    <h1>Rock, Paper and Scissors</h1>
+    <p id="message-el">Choose the hand</p>
+    
+    <div>
+        <button onclick="player('Rock')"><img src="rock.png" alt="Rock">Rock</button>
+        <button onclick="player('Paper')"><img src="paper.png" alt="">Paper</button>
+        <button onclick="player('Scissors')"><img src="scissors.png" alt="">Scissors</button>
+    </div>
+
+    <p id="result-el">Result: </p>
+    <p id="score-el">Wins:  ||loses:   ||Ties:  </p>
+    <div>
+        <button onclick="startNew()"><img src="play.jfif" alt="startNew">Start Again</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
